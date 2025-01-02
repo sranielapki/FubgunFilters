@@ -20,3 +20,8 @@ Quantity AND # of rare mobs:
 8 9 or 10 map tablets with quantity:
 
 "[8910] m" "tity of i"
+
+More rare mobs, 1 mod or quant
+
+"!d ail|e pen" "quant|rare m"
+
