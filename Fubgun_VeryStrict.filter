@@ -338,7 +338,7 @@ SetFontSize 40
 
 Hide
 BaseType "Waystone"
-WaystoneTier <= 10
+WaystoneTier < 13
 
 Show
 BaseType "Logbook"
