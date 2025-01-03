@@ -314,6 +314,10 @@ PlayEffect White
 MinimapIcon 1 White Square
 SetFontSize 40
 
+Hide
+BaseType "Waystone"
+Tier < 13
+
 
 #--------------------------
 # Value Rares
