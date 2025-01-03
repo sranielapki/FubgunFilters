@@ -2,6 +2,19 @@ To download the files please click into the filter you'd like to download and us
 
 ![image](https://github.com/user-attachments/assets/da353641-4d03-4352-a3a4-de2d6839738d)
 
+1/2/25 UberStrict Filter Update
+- Spiked Club added to vaal Unique
+- Adaptive Catalyst Shown
+- Hide Crackling Quarterstaff
+- Updated Currency Tiers
+- Hide Rare Belts
+- Hide Armour/ES Helmets, Body Armours and Gloves
+- Hide Advanced ES Helmets and Gloves
+
+1/2/25 VeryStrict, Strict and Basic Update
+- Updated Currency Tiers
+- Spiked Club added to vaal Unique
+
 
 **Regex cheat sheet for mapping and tablets:**
 
