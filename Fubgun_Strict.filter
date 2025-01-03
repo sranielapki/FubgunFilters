@@ -316,7 +316,7 @@ SetFontSize 40
 
 Hide
 BaseType "Waystone"
-Tier < 13
+WaystoneTier < 13
 
 
 #--------------------------
