@@ -374,6 +374,19 @@ BaseType "Djinn Barya" "Ultimatum"
 Show
 BaseType "Waystone" 
 Rarity <= Rare
+AnyEnchantment True
+WaystoneTier >= 15
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 180 45 123 255
+PlayAlertSound 12 300
+PlayEffect Pink
+MinimapIcon 1 Pink Square
+SetFontSize 40
+
+Show
+BaseType "Waystone" 
+Rarity <= Rare
 WaystoneTier >= 15
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
