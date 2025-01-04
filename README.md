@@ -2,6 +2,8 @@ To download the files please click into the filter you'd like to download and us
 
 ![image](https://github.com/user-attachments/assets/da353641-4d03-4352-a3a4-de2d6839738d)
 
+1/4/25 - Added destinction for waystones dropped with deli on them
+
 1/2/25 UberStrict Filter Update
 - Spiked Club added to vaal Unique
 - Adaptive Catalyst Shown
