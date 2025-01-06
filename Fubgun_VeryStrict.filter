@@ -11,7 +11,7 @@ SetFontSize 45
 
 Show
 Rarity Unique
-BaseType "Crude Bow" "Long Quarterstaff" "Wrapped Greathelm"
+BaseType "Crude Bow" "Long Quarterstaff" "Wrapped Greathelm" "Spiked Club"
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 200 29 0
@@ -193,10 +193,10 @@ PlayEffect Cyan Temp
 # Currency Tier A: Gemcutter, Annullment
 Show
 Class "Currency"
-BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance"
+BaseType "Orb of Annulment" "Orb of Chance" "Greater Jeweller's Orb"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
-SetBackgroundColor 240 90 35
+SetBackgroundColor 240 90 35 255
 PlayAlertSound 1 300
 PlayEffect White
 MinimapIcon 1 White Circle
@@ -206,19 +206,30 @@ Show
 Class "Omen"
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
-SetBackgroundColor 240 90 35
+SetBackgroundColor 240 90 35 255
 PlayAlertSound 1 300
 PlayEffect White
 MinimapIcon 1 White Circle
 SetFontSize 40
 
-# Currency Tier B: Vaal, Chaos, Exalt, Exotic
 Show
 Class "Currency"
-BaseType "Chaos Orb" "Exotic" "Exalted Orb" "Glassblower's Bauble"
-SetTextColor 0 0 0
-SetBorderColor 0 0 0
-SetBackgroundColor 249 150 25
+BaseType "Chaos Orb" "Gemcutter's Prism"
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 240 90 35 255
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Circle
+SetFontSize 45
+
+
+Show
+Class "Currency"
+BaseType "Exotic" "Exalted Orb" "Glassblower's Bauble"
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 249 150 25 255
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Circle
@@ -228,9 +239,9 @@ Show
 Class "Currency"
 BaseType "Distilled" "Essence of" "Omen of"
 SetFontSize 45
-SetTextColor 255 207 132
-SetBorderColor 255 207 132
-SetBackgroundColor 76 51 12
+SetTextColor 255 207 132 255
+SetBorderColor 255 207 132 255
+SetBackgroundColor 76 51 12 255
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Circle
@@ -239,9 +250,9 @@ MinimapIcon 1 White Circle
 Show
 Class "Currency"
 BaseType  "Armourer's Scrap" "Chance Shard" "Vaal Orb" "Orb of Alchemy"
-SetTextColor 0 0 0
-SetBorderColor 0 0 0
-SetBackgroundColor 210 178 135
+SetTextColor 0 0 0 255
+SetBorderColor 0 0 0 255
+SetBackgroundColor 210 178 135 255
 SetFontSize 40
 MinimapIcon 2 Grey Circle
 
@@ -323,6 +334,19 @@ SetBackgroundColor 65 20 80
 PlayAlertSound 2 300
 PlayEffect White
 MinimapIcon 1 White Square
+SetFontSize 40
+
+Show
+BaseType "Waystone" 
+Rarity <= Rare
+AnyEnchantment True
+WaystoneTier > 10
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 180 45 123 255
+PlayAlertSound 12 300
+PlayEffect Pink
+MinimapIcon 1 Pink Square
 SetFontSize 40
 
 Show
