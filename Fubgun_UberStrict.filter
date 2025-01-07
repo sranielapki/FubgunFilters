@@ -11,7 +11,7 @@ SetFontSize 45
 
 Show
 Rarity Unique
-BaseType "Crude Bow" "Long Quarterstaff" "Wrapped Greathelm" "Spiked Club"
+BaseType "Crude Bow" "Long Quarterstaff" "Wrapped Greathelm" "Spiked Club" "Gold Circlet"
 SetTextColor 255 255 255 
 SetBorderColor 255 255 255
 SetBackgroundColor 200 29 0
@@ -526,6 +526,12 @@ BaseEvasion = 0
 BaseEnergyShield > 0
 
 Hide
+Class = "Body"
+BaseArmour > 0
+BaseEvasion > 0
+BaseEnergyShield = 0
+
+Hide
 BaseType = "Long Quarter" "Barrier Quarter" "Serrated Quiver" "Toxic Quiver" "Blunt Quiver" "Crackling Quarter"
 
 Show
@@ -535,10 +541,9 @@ SetFontSize 40
 SetBorderColor 0 240 190 255
 SetBackgroundColor 20 20 0 255
 
-
 Show
 Rarity = Rare
-BaseType = "Expert Dualstring" "Expert Zealot"
+BaseType = "Expert Dualstring"
 SetFontSize 45
 SetBorderColor 0 240 190 255
 SetBackgroundColor 20 20 0 255
@@ -578,7 +583,16 @@ SetFontSize 32
 
 Show
 Rarity = Rare
-Class = "Helmet" "Boots" "Gloves"
+Class = "Gloves"
+BaseArmour = 0
+BaseEvasion = 0
+BaseEnergyShield > 0
+AreaLevel >= 65
+SetFontSize 32
+
+Show
+Rarity = Rare
+Class = "Helmet" "Boots"
 AreaLevel >= 65
 SetFontSize 32
 
