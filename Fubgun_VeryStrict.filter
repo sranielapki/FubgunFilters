@@ -123,6 +123,11 @@ PlayAlertSound 6 300
 PlayEffect Red
 MinimapIcon 0 Red Star
 
+Show
+BaseType "Uncut"
+ItemLevel = 19
+AreaLevel >= 65
+
 Hide
 BaseType "Uncut"
 ItemLevel >= 16
