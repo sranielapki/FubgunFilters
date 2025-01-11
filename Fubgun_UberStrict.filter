@@ -507,7 +507,7 @@ BaseEvasion = 0
 BaseEnergyShield = 0
 
 Hide
-Class = "Helmet" "Body" "Gloves"
+Class = "Helmet" "Body" "Gloves" "Boots"
 BaseArmour > 0
 BaseEvasion = 0
 BaseEnergyShield > 0
@@ -557,8 +557,22 @@ SetBackgroundColor 20 20 0 255
 
 Show
 Rarity = Rare
-Class = "Quarter" "Crossbows"
+Class "Sceptre"
+ItemLevel >= 81
+SetFontSize 40
+SetBorderColor 0 240 190 255
+SetBackgroundColor 20 20 0 255
+
+Show
+Rarity = Rare
+Class = "Quarter"
 BaseType = "Expert" 
+SetFontSize 32
+
+Show
+Rarity = Rare
+Class = "Crossbows"
+BaseType = "Expert Forlorn" ""Expert Bombard"
 SetFontSize 32
 
 Hide
