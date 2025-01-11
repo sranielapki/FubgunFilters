@@ -572,7 +572,7 @@ SetFontSize 32
 Show
 Rarity = Rare
 Class = "Crossbows"
-BaseType = "Expert Forlorn" ""Expert Bombard"
+BaseType = "Expert Forlorn" "Expert Bombard"
 SetFontSize 32
 
 Hide
